@@ -413,3 +413,39 @@ a {
   margin-top: 38px;
   justify-content: center;
 }
+
+/* =================== install ============================ */
+
+.install__inner {
+  margin: 180px 0 85px ;
+  padding: 0 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  background: #2e80ce;
+  height: 427px;
+  position: relative;
+}
+.install__img {
+  width: 284px;
+  height: 522px;
+  object-fit: cover;
+  position: absolute;
+  bottom: 0;
+}
+.install__content {
+  max-width: 586px;
+}
+.install__desc {
+  color: #fff;
+}
+.install__heading {
+  max-width: 489px;
+  color: #fff;
+}
+.install__row {
+  margin-top: 38px;
+  display: flex;
+  column-gap: 28px;
+}
