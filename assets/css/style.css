@@ -491,14 +491,14 @@ a {
   overflow: hidden;
   transition: 0.25s;
 }
-.blog-item:hover{
+.blog-item:hover {
   box-shadow: 0 18px 50px 0 rgba(0, 0, 0, 0.05);
   border-color: transparent;
 }
-.blog-item:hover .blog-item__thumb{
+.blog-item:hover .blog-item__thumb {
   transform: scale(1.05);
 }
-.blog-item__wrap{
+.blog-item__wrap {
   height: 172px;
   overflow: hidden;
 }
@@ -532,6 +532,33 @@ a {
   font-size: 1.4rem;
   line-height: normal;
 }
-.blog-item__more:hover{
-  color: #2E80CE;
+.blog-item__more:hover {
+  color: #2e80ce;
+}
+/* =================== appointment ========================== */
+
+.appointment {
+  margin: 85px 0;
+}
+.appointment__inner {
+  padding: 100px 178px;
+  text-align: center;
+  background: #f6fbff;
+}
+
+.appointment__heading::after {
+  content: "";
+  display: block;
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+  margin: 18px auto 0;
+}
+.appointment__desc {
+  width: 617px;
+  margin: 18px auto 0;
+}
+
+.appointment__btn {
+  margin-top: 38px;
 }
